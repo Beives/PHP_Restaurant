@@ -8,6 +8,7 @@ include('includes/header.php');
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <strong>laboris nisi ut aliquip ex ea commodo consequat.</strong> </p>
     <hr>
     
+    <!-- foreach start -->
     <?php 
         foreach($teamMembers as $member){
     ?>
@@ -21,6 +22,8 @@ include('includes/header.php');
     <?php
         }
     ?>
+
+    <!-- foreach ends -->
 </div>
 <?php
 include('includes/footer.php');

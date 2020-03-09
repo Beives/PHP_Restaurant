@@ -39,4 +39,34 @@
                         'img' => "carlos"
                     )
     );
+
+    $menuItems = array(
+        "sandwitch" => array(
+            'title' => "Sandwitch",
+            'price' => 11,
+            'blurb' => "KöcsögSandwitch description here",
+            'drink' => "Suggested Köcsögital here"
+        ),
+
+        "dill-salmon" => array(
+            'title' => "Lemon &amp; Dill salmon",
+            'price' => 18,
+            'blurb' => "Food description here",
+            'drink' => "Suggested Köcsögital here"
+        ),
+        "super-salad" => array(
+            'title' => "Super salad<sup>&reg;</sup>",
+            'price' => 34,
+            'blurb' => "Salad description here",
+            'drink' => "Suggested Köcsögital here"
+        ),
+        "mexican" => array(
+            'title' => "Mexican Barbaoca",
+            'price' => 23,
+            'blurb' => "Mexican description here",
+            'drink' => "Suggested Köcsögital here"
+        ),
+
+
+    );
 ?>
